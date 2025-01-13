@@ -24,7 +24,7 @@ var searchData=
   ['mask_21',['mask',['../class_pin.html#aa2b898e5549b54579f2d1f7fb77ceb11',1,'Pin::mask()'],['../class_fast_pin.html#a97fd678e7bc05979582254783a1b5e57',1,'FastPin::mask()']]],
   ['mask_5fskip_5fbits_22',['MASK_SKIP_BITS',['../fastspi__types_8h.html#afe32f8062c70f2114bd3a7adb55a4be3',1,'fastspi_types.h']]],
   ['mask_5fvalue_23',['MASK_VALUE',['../class_c_pixel_l_e_d_controller.html#a32e69eb58eddbeca00179bb5559ec451',1,'CPixelLEDController']]],
-  ['massive_20teensy_204_201_204_200_20led_20output_24',['New in 3.9.8 - Massive Teensy 4.1 &amp; 4.0 LED output',['../index.html#autotoc_md17',1,'']]],
+  ['massive_20teensy_204_201_204_200_20led_20output_24',['New in 3.9.8 - Massive Teensy 4.1 &amp; 4.0 LED output',['../index.html#autotoc_md18',1,'']]],
   ['math_25',['Math',['../structfl_1_1_red_square_1_1_math.html',1,'fl::RedSquare']]],
   ['math_20functions_26',['Fast Math Functions',['../group__lib8tion.html',1,'']]],
   ['math_20operations_27',['Basic Math Operations',['../group___math.html',1,'']]],

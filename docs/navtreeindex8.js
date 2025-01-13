@@ -1,14 +1,18 @@
 var NAVTREEINDEX8 =
 {
+"serial_m_i_d_i_8h.html#af0378001dcec67ea873914c090a03450":[7,0,0,31,0,11,3],
+"serial_m_i_d_i_8h_source.html":[7,0,0,31,0,11],
+"set_8h_source.html":[7,0,1,0,33],
+"settings_8h_source.html":[7,0,0,31,1,17],
+"simplex_8cpp.html":[7,0,1,68],
+"simplex_8cpp_source.html":[7,0,1,68],
+"singleton_8h_source.html":[7,0,1,69],
+"slice_8h_source.html":[7,0,1,70],
 "src_2color_8h.html":[7,0,1,13],
 "src_2color_8h_source.html":[7,0,1,13],
-"str_8cpp_source.html":[7,0,1,0,34],
+"str_8cpp_source.html":[7,0,1,0,36],
 "str_8h_source.html":[7,0,1,71],
-"strip__rmt_8cpp_source.html":[7,0,1,4,1,0,1],
-"strip__rmt_8h_source.html":[7,0,1,4,1,0,2],
-"strip__spi_8cpp_source.html":[7,0,1,4,1,0,3],
-"strip__spi_8h_source.html":[7,0,1,4,1,0,4],
-"strstream_8h_source.html":[7,0,1,0,36],
+"strstream_8h_source.html":[7,0,1,0,38],
 "struct_____f_l___p_o_r_t___i_n_f_o.html":[6,0,3],
 "struct_c_fast_l_e_d_1_1_clocked_chipset_helper.html":[6,0,12,0],
 "struct_c_h_s_v.html":[4,11,0],
@@ -244,10 +248,6 @@ var NAVTREEINDEX8 =
 "struct_default_platform.html":[6,0,33],
 "struct_default_serial_settings.html":[6,0,34],
 "struct_default_settings.html":[6,0,35],
-"struct_interp_data.html":[6,0,56],
-"struct_key.html":[6,0,60],
-"struct_led_columns.html":[6,0,70],
-"struct_message.html":[6,0,80],
-"struct_message.html#a3e088d88b4c2c84efd78f080a6ba3384":[6,0,80,1],
-"struct_message.html#a4f63b5d7cc89e5f96c8fed1367832c2b":[6,0,80,5]
+"struct_interp_data.html":[6,0,55],
+"struct_key.html":[6,0,57]
 };

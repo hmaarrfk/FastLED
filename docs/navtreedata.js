@@ -27,11 +27,11 @@ var NAVTREE =
   [ "FastLED", "index.html", [
     [ "FastLED Library", "index.html", "index" ],
     [ "Platform Porting Guide", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html", [
-      [ "Fast porting for a new board on existing hardware", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md31", [
-        [ "Setting up the basic files/folders", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md32", null ],
-        [ "Porting fastpin.h", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md33", null ],
-        [ "Porting fastspi.h", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md34", null ],
-        [ "Porting clockless.h", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md35", null ]
+      [ "Fast porting for a new board on existing hardware", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md35", [
+        [ "Setting up the basic files/folders", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md36", null ],
+        [ "Porting fastpin.h", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md37", null ],
+        [ "Porting fastspi.h", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md38", null ],
+        [ "Porting clockless.h", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md39", null ]
       ] ]
     ] ],
     [ "Todo List", "todo.html", null ],
@@ -77,16 +77,16 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "______pixeltypes_8h_source.html",
-"class_c_every_n_time.html#abf8af3755a0c9c8ac5d1f70eabef5c3b",
-"class_c_r_g_b_palette256.html#a406a1031a306595b6d9b10f8b6cff761",
-"classfl_1_1_digital_pin_impl.html",
-"dir_3d7f0dd01d50ae27368def194e8e7b46.html",
-"functions_v.html",
-"group___noise_generation.html#ga94be5ce8402e6147209f94d6006e8f00",
-"index.html#autotoc_md9",
-"src_2color_8h.html",
-"struct_message.html#a539ee7ccd80e06cb2fa45b1f47569837",
-"union_i_e_e_e754binary32__t.html#ab90825263a890ecc448a428ef8aadd54"
+"class_c_every_n_time.html#ac2a286cd6e39c223c274633b19057fe5",
+"class_c_r_g_b_palette256.html#a48879a7e1b1eeab04465e129cd38a286",
+"classfl_1_1_fast_l_e_d_a_n_i_mart_r_i_x.html",
+"dir_3c096064f75e33bbd0d7cdd12788e828.html",
+"functions_type.html",
+"group___noise_generation.html#ga77c11f2f9fea19661e8eaa04cf9a4155",
+"index.html#autotoc_md34",
+"serial_m_i_d_i_8h.html#af0378001dcec67ea873914c090a03450",
+"struct_led_columns.html",
+"ui__state_8h_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

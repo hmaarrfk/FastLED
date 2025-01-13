@@ -35,7 +35,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="fastled_logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">FastLED<span id="projectnumber">&#160;3.9.10</span>
+   <div id="projectname">FastLED<span id="projectnumber">&#160;3.9.11</span>
    </div>
   </td>
  </tr>
@@ -163,14 +163,14 @@ $(function(){initNavTree('dbg_8h_source.html',''); initResizable(true); });
 <div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span> </div>
 <div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span><span class="preprocessor">#ifndef FASTLED_HAS_DBG</span></div>
 <div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span><span class="comment">// FASTLED_DBG is a macro that can be defined to enable debug printing.</span></div>
-<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#define FASTLED_DBG(X)</span></div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span><span class="preprocessor">#define FASTLED_DBG(X) (fl::FakeStrStream() &lt;&lt; X)</span></div>
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span><span class="preprocessor">#endif</span></div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span> </div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span><span class="preprocessor">#ifndef FASTLED_DBG_IF</span></div>
 <div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span><span class="preprocessor">#ifdef FASTLED_HAS_DBG</span></div>
 <div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span><span class="preprocessor">#define FASTLED_DBG_IF(COND, MSG) if (COND) FASTLED_DBG(MSG)</span></div>
 <div class="line"><a id="l00063" name="l00063"></a><span class="lineno">   63</span><span class="preprocessor">#else</span></div>
-<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#define FASTLED_DBG_IF(COND, MSG)</span></div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span><span class="preprocessor">#define FASTLED_DBG_IF(COND, MSG) while(false &amp;&amp; (COND)) { FASTLED_DBG(MSG); }</span></div>
 <div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span><span class="preprocessor">#endif  </span><span class="comment">// FASTLED_HAS_DBG</span></div>
 <div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span><span class="preprocessor">#endif  </span><span class="comment">// FASTLED_DBG_IF</span></div>
 <div class="ttc" id="anamespacefl_html"><div class="ttname"><a href="namespacefl.html">fl</a></div><div class="ttdoc">Implements a simple red square effect for 2D LED grids.</div><div class="ttdef"><b>Definition</b> <a href="crgb_8h_source.html#l00016">crgb.h:16</a></div></div>
@@ -181,7 +181,7 @@ $(function(){initNavTree('dbg_8h_source.html',''); initResizable(true); });
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_4d1829fa9bd13d7db71e765b2707b248.html">fl</a></li><li class="navelem"><b>dbg.h</b></li>
-    <li class="footer">Generated on Thu Jan 9 2025 15:46:06 for FastLED by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated on Mon Jan 13 2025 00:51:57 for FastLED by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 <!-- ... -->

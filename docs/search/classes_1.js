@@ -12,10 +12,11 @@ var searchData=
   ['apa106_9',['APA106',['../class_a_p_a106.html',1,'']]],
   ['arraydeleter_10',['ArrayDeleter',['../structfl_1_1_array_deleter.html',1,'fl']]],
   ['arraydeleter_3c_20crgb_20_3e_11',['ArrayDeleter&lt; CRGB &gt;',['../structfl_1_1_array_deleter.html',1,'fl']]],
-  ['arraydeleter_3c_20fl_3a_3aheapvector_3c_20float_20_3e_20_3e_12',['ArrayDeleter&lt; fl::HeapVector&lt; float &gt; &gt;',['../structfl_1_1_array_deleter.html',1,'fl']]],
-  ['arraydeleter_3c_20float_20_3e_13',['ArrayDeleter&lt; float &gt;',['../structfl_1_1_array_deleter.html',1,'fl']]],
-  ['arraydeleter_3c_20pair_20_3e_14',['ArrayDeleter&lt; Pair &gt;',['../structfl_1_1_array_deleter.html',1,'fl']]],
-  ['arraydeleter_3c_20uint8_5ft_20_3e_15',['ArrayDeleter&lt; uint8_t &gt;',['../structfl_1_1_array_deleter.html',1,'fl']]],
-  ['avrsoftwarespioutput_16',['AVRSoftwareSPIOutput',['../class_a_v_r_software_s_p_i_output.html',1,'']]],
-  ['avrsoftwarespioutput_3c_20_5fdata_5fpin_2c_20_5fclock_5fpin_2c_20_5fspi_5fclock_5fdivider_20_3e_17',['AVRSoftwareSPIOutput&lt; _DATA_PIN, _CLOCK_PIN, _SPI_CLOCK_DIVIDER &gt;',['../class_a_v_r_software_s_p_i_output.html',1,'']]]
+  ['arraydeleter_3c_20drawitem_20_3e_12',['ArrayDeleter&lt; DrawItem &gt;',['../structfl_1_1_array_deleter.html',1,'fl']]],
+  ['arraydeleter_3c_20fl_3a_3aheapvector_3c_20float_20_3e_20_3e_13',['ArrayDeleter&lt; fl::HeapVector&lt; float &gt; &gt;',['../structfl_1_1_array_deleter.html',1,'fl']]],
+  ['arraydeleter_3c_20float_20_3e_14',['ArrayDeleter&lt; float &gt;',['../structfl_1_1_array_deleter.html',1,'fl']]],
+  ['arraydeleter_3c_20pair_20_3e_15',['ArrayDeleter&lt; Pair &gt;',['../structfl_1_1_array_deleter.html',1,'fl']]],
+  ['arraydeleter_3c_20uint8_5ft_20_3e_16',['ArrayDeleter&lt; uint8_t &gt;',['../structfl_1_1_array_deleter.html',1,'fl']]],
+  ['avrsoftwarespioutput_17',['AVRSoftwareSPIOutput',['../class_a_v_r_software_s_p_i_output.html',1,'']]],
+  ['avrsoftwarespioutput_3c_20_5fdata_5fpin_2c_20_5fclock_5fpin_2c_20_5fspi_5fclock_5fdivider_20_3e_18',['AVRSoftwareSPIOutput&lt; _DATA_PIN, _CLOCK_PIN, _SPI_CLOCK_DIVIDER &gt;',['../class_a_v_r_software_s_p_i_output.html',1,'']]]
 ];

@@ -7,7 +7,6 @@ var _fast_l_e_d_8h =
     [ "FastSPI_LED", "_fast_l_e_d_8h.html#a142a708c2ff8d157a967309a781ac815", null ],
     [ "FastSPI_LED2", "_fast_l_e_d_8h.html#ac30cd5abdb75244830caee11ae5a110c", null ],
     [ "NO_HARDWARE_PIN_SUPPORT", "_fast_l_e_d_8h.html#ad745fb280b8fb379961f6520f18f775a", null ],
-    [ "NUM_CONTROLLERS", "_fast_l_e_d_8h.html#a825effbe157f971450cc2cff08f71792", null ],
     [ "power_func", "_fast_l_e_d_8h.html#aa8a26176bfad65ad4447edd2ca99145e", null ],
     [ "EBlockChipsets", "_fast_l_e_d_8h.html#adcf22542128a12d8c3c304777422c7cc", null ],
     [ "ESM", "_fast_l_e_d_8h.html#ac8839f06bbcecd0dc5bde0a94510a657", [
