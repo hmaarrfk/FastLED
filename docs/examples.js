@@ -30,5 +30,6 @@ var examples =
     [ "RGBCalibrate.ino", "_r_g_b_calibrate_8ino-example.html", null ],
     [ "RGBSetDemo.ino", "_r_g_b_set_demo_8ino-example.html", null ],
     [ "SmartMatrix.ino", "_smart_matrix_8ino-example.html", null ],
+    [ "WS2816.ino", "_w_s2816_8ino-example.html", null ],
     [ "XYMatrix.ino", "_x_y_matrix_8ino-example.html", null ]
 ];

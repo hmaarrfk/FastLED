@@ -35,7 +35,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="fastled_logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">FastLED<span id="projectnumber">&#160;3.9.11</span>
+   <div id="projectname">FastLED<span id="projectnumber">&#160;3.9.12</span>
    </div>
   </td>
  </tr>
@@ -105,7 +105,8 @@ $(function(){initNavTree('group___color_blurs.html',''); initResizable(true); })
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">Color Blurring Functions<div class="ingroups"><a class="el" href="group___color_utils.html">Color Utility Functions</a></div></div></div>
 </div><!--header-->
 <div class="contents">
@@ -120,12 +121,20 @@ Functions</h2></td></tr>
 <tr class="memitem:gadfd6e9dc2b0c79922d8d4be9d94cf5f5" id="r_gadfd6e9dc2b0c79922d8d4be9d94cf5f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gadfd6e9dc2b0c79922d8d4be9d94cf5f5">blur2d</a> (<a class="el" href="struct_c_r_g_b.html">CRGB</a> *leds, uint8_t width, uint8_t height, <a class="el" href="group___fractional_types.html#ga5d6d013429a5b8a09d564d6137217644">fract8</a> blur_amount, const <a class="el" href="classfl_1_1_x_y_map.html">fl::XYMap</a> &amp;xymap)</td></tr>
 <tr class="memdesc:gadfd6e9dc2b0c79922d8d4be9d94cf5f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Two-dimensional blur filter.  <br /></td></tr>
 <tr class="separator:gadfd6e9dc2b0c79922d8d4be9d94cf5f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gace329fff1ff6337897dcb791357ca51a" id="r_gace329fff1ff6337897dcb791357ca51a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#gace329fff1ff6337897dcb791357ca51a">blur2d</a> (<a class="el" href="struct_c_r_g_b.html">CRGB</a> *leds, uint8_t width, uint8_t height, <a class="el" href="group___fractional_types.html#ga5d6d013429a5b8a09d564d6137217644">fract8</a> blur_amount) FASTLED_DEPRECATED(&quot;Use blur2d(...</td></tr>
+<tr class="memdesc:gace329fff1ff6337897dcb791357ca51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Legacy version of blur2d, which does not require an XYMap but instead implicitly binds to XY() function.  <br /></td></tr>
+<tr class="separator:gace329fff1ff6337897dcb791357ca51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3000f2662fe45e9424c02b0d35f40b21" id="r_ga3000f2662fe45e9424c02b0d35f40b21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga3000f2662fe45e9424c02b0d35f40b21">blurRows</a> (<a class="el" href="struct_c_r_g_b.html">CRGB</a> *leds, uint8_t width, uint8_t height, <a class="el" href="group___fractional_types.html#ga5d6d013429a5b8a09d564d6137217644">fract8</a> blur_amount, const <a class="el" href="classfl_1_1_x_y_map.html">fl::XYMap</a> &amp;xymap)</td></tr>
 <tr class="memdesc:ga3000f2662fe45e9424c02b0d35f40b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a <a class="el" href="#gaacf0416f9e0438f23f92d0df6c338ea3" title="One-dimensional blur filter.">blur1d()</a> on every row of a rectangular matrix.  <br /></td></tr>
 <tr class="separator:ga3000f2662fe45e9424c02b0d35f40b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga33ce178f76009348d3a0f0723b22d4de" id="r_ga33ce178f76009348d3a0f0723b22d4de"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga33ce178f76009348d3a0f0723b22d4de">blurColumns</a> (<a class="el" href="struct_c_r_g_b.html">CRGB</a> *leds, uint8_t width, uint8_t height, <a class="el" href="group___fractional_types.html#ga5d6d013429a5b8a09d564d6137217644">fract8</a> blur_amount, const <a class="el" href="classfl_1_1_x_y_map.html">fl::XYMap</a> &amp;xymap)</td></tr>
 <tr class="memdesc:ga33ce178f76009348d3a0f0723b22d4de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a <a class="el" href="#gaacf0416f9e0438f23f92d0df6c338ea3" title="One-dimensional blur filter.">blur1d()</a> on every column of a rectangular matrix.  <br /></td></tr>
 <tr class="separator:ga33ce178f76009348d3a0f0723b22d4de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ga29f7d2b754596b861cd5e778222f9885" id="r_ga29f7d2b754596b861cd5e778222f9885"><td class="memItemLeft" align="right" valign="top">void const <a class="el" href="classfl_1_1_x_y_map.html">fl::XYMap</a> &amp;xymap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ga29f7d2b754596b861cd5e778222f9885">instead</a></td></tr>
+<tr class="separator:ga29f7d2b754596b861cd5e778222f9885"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="gaacf0416f9e0438f23f92d0df6c338ea3" name="gaacf0416f9e0438f23f92d0df6c338ea3"></a>
@@ -168,12 +177,46 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="colorutils_8cpp_source.html#l00422">422</a> of file <a class="el" href="colorutils_8cpp_source.html">colorutils.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="colorutils_8cpp_source.html#l00454">454</a> of file <a class="el" href="colorutils_8cpp_source.html">colorutils.cpp</a>.</p>
+
+</div>
+</div>
+<a id="gace329fff1ff6337897dcb791357ca51a" name="gace329fff1ff6337897dcb791357ca51a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#gace329fff1ff6337897dcb791357ca51a">&#9670;&#160;</a></span>blur2d() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void blur2d </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_g_b.html">CRGB</a> *</td>          <td class="paramname"><span class="paramname"><em>leds</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>height</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___fractional_types.html#ga5d6d013429a5b8a09d564d6137217644">fract8</a></td>          <td class="paramname"><span class="paramname"><em>blur_amount</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Legacy version of blur2d, which does not require an XYMap but instead implicitly binds to XY() function. </p>
+<p>If you are hitting a linker error here, then use blur2d(..., const fl::XYMap&amp; xymap) instead. </p>
 
 </div>
 </div>
 <a id="gadfd6e9dc2b0c79922d8d4be9d94cf5f5" name="gadfd6e9dc2b0c79922d8d4be9d94cf5f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#gadfd6e9dc2b0c79922d8d4be9d94cf5f5">&#9670;&#160;</a></span>blur2d()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#gadfd6e9dc2b0c79922d8d4be9d94cf5f5">&#9670;&#160;</a></span>blur2d() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -223,7 +266,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="colorutils_8cpp_source.html#l00439">439</a> of file <a class="el" href="colorutils_8cpp_source.html">colorutils.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="colorutils_8cpp_source.html#l00471">471</a> of file <a class="el" href="colorutils_8cpp_source.html">colorutils.cpp</a>.</p>
 
 </div>
 </div>
@@ -273,7 +316,7 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="colorutils_8cpp_source.html#l00472">472</a> of file <a class="el" href="colorutils_8cpp_source.html">colorutils.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="colorutils_8cpp_source.html#l00510">510</a> of file <a class="el" href="colorutils_8cpp_source.html">colorutils.cpp</a>.</p>
 
 </div>
 </div>
@@ -323,7 +366,24 @@ Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="colorutils_8cpp_source.html#l00445">445</a> of file <a class="el" href="colorutils_8cpp_source.html">colorutils.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="colorutils_8cpp_source.html#l00483">483</a> of file <a class="el" href="colorutils_8cpp_source.html">colorutils.cpp</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="ga29f7d2b754596b861cd5e778222f9885" name="ga29f7d2b754596b861cd5e778222f9885"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ga29f7d2b754596b861cd5e778222f9885">&#9670;&#160;</a></span>instead</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void const <a class="el" href="classfl_1_1_x_y_map.html">fl::XYMap</a>&amp; xymap instead</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00556">556</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
 
 </div>
 </div>
@@ -333,7 +393,7 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jan 13 2025 00:51:57 for FastLED by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated on Wed Jan 22 2025 01:23:03 for FastLED by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 <!-- ... -->

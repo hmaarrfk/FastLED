@@ -35,7 +35,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="fastled_logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">FastLED<span id="projectnumber">&#160;3.9.11</span>
+   <div id="projectname">FastLED<span id="projectnumber">&#160;3.9.12</span>
    </div>
   </td>
  </tr>
@@ -140,6 +140,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a7f0a4e3957953c2add5f03814ae0afcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2b68a121ece0a5366bd7464fc965005" id="r_aa2b68a121ece0a5366bd7464fc965005"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa2b68a121ece0a5366bd7464fc965005">beginStream</a> (fl::ByteStreamPtr s)</td></tr>
 <tr class="separator:aa2b68a121ece0a5366bd7464fc965005"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a974845c48f4b881215a94bbfae4bdcd2" id="r_a974845c48f4b881215a94bbfae4bdcd2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a974845c48f4b881215a94bbfae4bdcd2">setFade</a> (uint32_t fadeInTime, uint32_t fadeOutTime)</td></tr>
+<tr class="separator:a974845c48f4b881215a94bbfae4bdcd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7f20b7fd606b0a62f8af1f1c36b15775" id="r_a7f20b7fd606b0a62f8af1f1c36b15775"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7f20b7fd606b0a62f8af1f1c36b15775">draw</a> (uint32_t now, <a class="el" href="struct_c_r_g_b.html">CRGB</a> *leds)</td></tr>
 <tr class="separator:a7f20b7fd606b0a62f8af1f1c36b15775"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b05a918a3c560ceb52af1f4f7475ef9" id="r_a5b05a918a3c560ceb52af1f4f7475ef9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a5b05a918a3c560ceb52af1f4f7475ef9">end</a> ()</td></tr>
@@ -162,6 +164,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:adfbcab1b5a36d507a1d25608c224c399"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bbd58d940ee9570338c1ca67e430ed6" id="r_a9bbd58d940ee9570338c1ca67e430ed6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a9bbd58d940ee9570338c1ca67e430ed6">needsFrame</a> (uint32_t now) const</td></tr>
 <tr class="separator:a9bbd58d940ee9570338c1ca67e430ed6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a830dba512c28a6890da98ab6beb15217" id="r_a830dba512c28a6890da98ab6beb15217"><td class="memItemLeft" align="right" valign="top">int32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a830dba512c28a6890da98ab6beb15217">durationMicros</a> () const</td></tr>
+<tr class="separator:a830dba512c28a6890da98ab6beb15217"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classfl_1_1_referent"><td colspan="2" onclick="javascript:dynsection.toggleInherit('pub_methods_classfl_1_1_referent')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classfl_1_1_referent.html">fl::Referent</a></td></tr>
 <tr class="memitem:a23516ee3d7cba3444326b482ec0b187f inherit pub_methods_classfl_1_1_referent" id="r_a23516ee3d7cba3444326b482ec0b187f"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classfl_1_1_referent.html#a23516ee3d7cba3444326b482ec0b187f">ref_count</a> () const</td></tr>
 <tr class="separator:a23516ee3d7cba3444326b482ec0b187f inherit pub_methods_classfl_1_1_referent"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -230,7 +234,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00017">17</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00014">14</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
 
 </div>
 </div>
@@ -249,7 +253,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00049">49</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00051">51</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
 
 </div>
 </div>
@@ -269,7 +273,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00051">51</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00053">53</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
 
 </div>
 </div>
@@ -288,7 +292,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00059">59</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00061">61</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
 
 </div>
 </div>
@@ -311,7 +315,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00090">90</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00093">93</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
 
 </div>
 </div>
@@ -334,7 +338,26 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00075">75</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00077">77</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a830dba512c28a6890da98ab6beb15217" name="a830dba512c28a6890da98ab6beb15217"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a830dba512c28a6890da98ab6beb15217">&#9670;&#160;</a></span>durationMicros()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int32_t fl::VideoImpl::durationMicros </td>
+          <td>(</td>
+          <td class="paramname"><span class="paramname"><em></em></span></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00081">81</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
 
 </div>
 </div>
@@ -353,7 +376,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00067">67</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00069">69</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
 
 </div>
 </div>
@@ -372,7 +395,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00073">73</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00075">75</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
 
 </div>
 </div>
@@ -391,7 +414,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00043">43</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00045">45</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
 
 </div>
 </div>
@@ -410,7 +433,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00023">23</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00020">20</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
 
 </div>
 </div>
@@ -437,7 +460,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="video__impl_8h_source.html#l00044">44</a> of file <a class="el" href="video__impl_8h_source.html">video_impl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="video__impl_8h_source.html#l00045">45</a> of file <a class="el" href="video__impl_8h_source.html">video_impl.h</a>.</p>
 
 </div>
 </div>
@@ -456,7 +479,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00029">29</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00026">26</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
 
 </div>
 </div>
@@ -475,7 +498,30 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00295">295</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00348">348</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a974845c48f4b881215a94bbfae4bdcd2" name="a974845c48f4b881215a94bbfae4bdcd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a974845c48f4b881215a94bbfae4bdcd2">&#9670;&#160;</a></span>setFade()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fl::VideoImpl::setFade </td>
+          <td>(</td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>fadeInTime</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint32_t</td>          <td class="paramname"><span class="paramname"><em>fadeOutTime</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00040">40</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
 
 </div>
 </div>
@@ -494,7 +540,7 @@ Additional Inherited Members</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00036">36</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="video__impl_8cpp_source.html#l00033">33</a> of file <a class="el" href="video__impl_8cpp_source.html">video_impl.cpp</a>.</p>
 
 </div>
 </div>
@@ -521,7 +567,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="video__impl_8h_source.html#l00043">43</a> of file <a class="el" href="video__impl_8h_source.html">video_impl.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="video__impl_8h_source.html#l00044">44</a> of file <a class="el" href="video__impl_8h_source.html">video_impl.h</a>.</p>
 
 </div>
 </div>
@@ -536,7 +582,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacefl.html">fl</a></li><li class="navelem"><a class="el" href="classfl_1_1_video_impl.html">VideoImpl</a></li>
-    <li class="footer">Generated on Mon Jan 13 2025 00:51:58 for FastLED by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated on Wed Jan 22 2025 01:23:04 for FastLED by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 <!-- ... -->

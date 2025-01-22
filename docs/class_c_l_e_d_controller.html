@@ -35,7 +35,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="fastled_logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">FastLED<span id="projectnumber">&#160;3.9.11</span>
+   <div id="projectname">FastLED<span id="projectnumber">&#160;3.9.12</span>
    </div>
   </td>
  </tr>
@@ -108,7 +108,6 @@ $(function(){initNavTree('class_c_l_e_d_controller.html',''); initResizable(true
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="#pro-static-attribs">Static Protected Attributes</a> &#124;
 <a href="#friends">Friends</a> &#124;
@@ -131,29 +130,39 @@ $(function(){initNavTree('class_c_l_e_d_controller.html',''); initResizable(true
  <div class="center">
   <img src="class_c_l_e_d_controller.png" usemap="#CLEDController_map" alt=""/>
   <map id="CLEDController_map" name="CLEDController_map">
-<area href="class_c_pixel_l_e_d_controller.html" alt="CPixelLEDController&lt; RGB &gt;" shape="rect" coords="0,56,934,80"/>
-<area href="class_c_pixel_l_e_d_controller.html" alt="CPixelLEDController&lt; GRB, CONTROLLER::LANES_VALUE, CONTROLLER::MASK_VALUE &gt;" shape="rect" coords="1888,56,2822,80"/>
-<area href="class_c_pixel_l_e_d_controller.html" title="Template extension of the CLEDController class." alt="CPixelLEDController&lt; RGB_ORDER, LANES, MASK &gt;" shape="rect" coords="2832,56,3766,80"/>
-<area href="class_a_p_a102_controller.html" title="APA102 controller class." alt="APA102Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED, GAMMA_CORRECTION_MODE, START_FRAME, END_FRAME &gt;" shape="rect" coords="944,112,1878,136"/>
-<area href="class_d_m_x_serial_controller.html" title="DMX512 based LED controller class, using the DMXSerial library." alt="DMXSerialController&lt; RGB_ORDER &gt;" shape="rect" coords="944,168,1878,192"/>
-<area href="class_d_m_x_simple_controller.html" title="DMX512 based LED controller class, using the DmxSimple library." alt="DMXSimpleController&lt; DATA_PIN, RGB_ORDER &gt;" shape="rect" coords="944,224,1878,248"/>
-<area href="class_l_p_d6803_controller.html" title="LPD6803 controller class (LPD1101)." alt="LPD6803Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;" shape="rect" coords="944,280,1878,304"/>
-<area href="class_l_p_d8806_controller.html" title="LPD8806 controller class." alt="LPD8806Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;" shape="rect" coords="944,336,1878,360"/>
-<area href="class_p9813_controller.html" title="P9813 controller class." alt="P9813Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;" shape="rect" coords="944,392,1878,416"/>
-<area href="class_s_m16716_controller.html" title="SM16716 controller class." alt="SM16716Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;" shape="rect" coords="944,448,1878,472"/>
-<area href="class_w_s2801_controller.html" title="WS2801 controller class." alt="WS2801Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;" shape="rect" coords="944,504,1878,528"/>
-<area href="class_r_g_b_w_emulated_controller.html" alt="RGBWEmulatedController&lt; CONTROLLER, RGB_ORDER &gt;" shape="rect" coords="1888,112,2822,136"/>
-<area href="class_a_p_a102_controller.html" alt="APA102Controller&lt; DATA_PIN, CLOCK_PIN, RGB, DATA_RATE_MHZ(6), kFiveBitGammaCorrectionMode_BitShift, uint32_t(0x00000000), uint32_t(0x00000000)&gt;" shape="rect" coords="3776,112,4710,136"/>
-<area href="class_a_p_a102_controller.html" alt="APA102Controller&lt; DATA_PIN, CLOCK_PIN, RGB, DATA_RATE_MHZ(12), kFiveBitGammaCorrectionMode_Null, 0x00000000, 0x00000000 &gt;" shape="rect" coords="3776,168,4710,192"/>
-<area href="class_a_p_a102_controller.html" alt="APA102Controller&lt; DATA_PIN, CLOCK_PIN, RGB, DATA_RATE_MHZ(12), kFiveBitGammaCorrectionMode_BitShift, 0x00000000, 0x00000000 &gt;" shape="rect" coords="3776,224,4710,248"/>
-<area href="class_d_m_x_serial_controller.html" alt="DMXSerialController&lt; RGB_ORDER &gt;" shape="rect" coords="3776,280,4710,304"/>
-<area href="class_d_m_x_simple_controller.html" alt="DMXSimpleController&lt; DATA_PIN, RGB_ORDER &gt;" shape="rect" coords="3776,336,4710,360"/>
-<area href="class_w_s2801_controller.html" alt="WS2801Controller&lt; DATA_PIN, CLOCK_PIN, RGB, DATA_RATE_MHZ(25) &gt;" shape="rect" coords="3776,392,4710,416"/>
+<area href="class_c_pixel_l_e_d_controller.html" alt="CPixelLEDController&lt; RGB &gt;" shape="rect" coords="0,56,958,80"/>
+<area href="class_c_pixel_l_e_d_controller.html" alt="CPixelLEDController&lt; GRB, CONTROLLER::LANES_VALUE, CONTROLLER::MASK_VALUE &gt;" shape="rect" coords="1936,56,2894,80"/>
+<area href="class_c_pixel_l_e_d_controller.html" alt="CPixelLEDController&lt; RGB_ORDER, WS2812Controller800Khz&lt; DATA_PIN, RGB &gt;::LANES_VALUE, WS2812Controller800Khz&lt; DATA_PIN, RGB &gt;::MASK_VALUE &gt;" shape="rect" coords="2904,56,3862,80"/>
+<area href="class_c_pixel_l_e_d_controller.html" alt="CPixelLEDController&lt; GRB, WS2812Controller800Khz&lt; DATA_PIN, RGB &gt;::LANES_VALUE, WS2812Controller800Khz&lt; DATA_PIN, RGB &gt;::MASK_VALUE &gt;" shape="rect" coords="3872,56,4830,80"/>
+<area href="class_c_pixel_l_e_d_controller.html" title="Template extension of the CLEDController class." alt="CPixelLEDController&lt; RGB_ORDER, LANES, MASK &gt;" shape="rect" coords="4840,56,5798,80"/>
+<area href="class_a_p_a102_controller.html" title="APA102 controller class." alt="APA102Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED, GAMMA_CORRECTION_MODE, START_FRAME, END_FRAME &gt;" shape="rect" coords="968,112,1926,136"/>
+<area href="class_d_m_x_serial_controller.html" title="DMX512 based LED controller class, using the DMXSerial library." alt="DMXSerialController&lt; RGB_ORDER &gt;" shape="rect" coords="968,168,1926,192"/>
+<area href="class_d_m_x_simple_controller.html" title="DMX512 based LED controller class, using the DmxSimple library." alt="DMXSimpleController&lt; DATA_PIN, RGB_ORDER &gt;" shape="rect" coords="968,224,1926,248"/>
+<area href="class_l_p_d6803_controller.html" title="LPD6803 controller class (LPD1101)." alt="LPD6803Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;" shape="rect" coords="968,280,1926,304"/>
+<area href="class_l_p_d8806_controller.html" title="LPD8806 controller class." alt="LPD8806Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;" shape="rect" coords="968,336,1926,360"/>
+<area href="class_p9813_controller.html" title="P9813 controller class." alt="P9813Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;" shape="rect" coords="968,392,1926,416"/>
+<area href="class_s_m16716_controller.html" title="SM16716 controller class." alt="SM16716Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;" shape="rect" coords="968,448,1926,472"/>
+<area href="class_w_s2801_controller.html" title="WS2801 controller class." alt="WS2801Controller&lt; DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED &gt;" shape="rect" coords="968,504,1926,528"/>
+<area href="class_r_g_b_w_emulated_controller.html" alt="RGBWEmulatedController&lt; CONTROLLER, RGB_ORDER &gt;" shape="rect" coords="1936,112,2894,136"/>
+<area href="class_w_s2816_controller.html" alt="WS2816Controller&lt; DATA_PIN, RGB_ORDER &gt;" shape="rect" coords="2904,112,3862,136"/>
+<area href="class_w_s2816_controller.html" alt="WS2816Controller&lt; DATA_PIN, RGB_ORDER &gt;" shape="rect" coords="3872,112,4830,136"/>
+<area href="class_a_p_a102_controller.html" alt="APA102Controller&lt; DATA_PIN, CLOCK_PIN, RGB, DATA_RATE_MHZ(6), kFiveBitGammaCorrectionMode_BitShift, uint32_t(0x00000000), uint32_t(0x00000000)&gt;" shape="rect" coords="5808,112,6766,136"/>
+<area href="class_a_p_a102_controller.html" alt="APA102Controller&lt; DATA_PIN, CLOCK_PIN, RGB, DATA_RATE_MHZ(12), kFiveBitGammaCorrectionMode_Null, 0x00000000, 0x00000000 &gt;" shape="rect" coords="5808,168,6766,192"/>
+<area href="class_a_p_a102_controller.html" alt="APA102Controller&lt; DATA_PIN, CLOCK_PIN, RGB, DATA_RATE_MHZ(12), kFiveBitGammaCorrectionMode_BitShift, 0x00000000, 0x00000000 &gt;" shape="rect" coords="5808,224,6766,248"/>
+<area href="class_d_m_x_serial_controller.html" alt="DMXSerialController&lt; RGB_ORDER &gt;" shape="rect" coords="5808,280,6766,304"/>
+<area href="class_d_m_x_simple_controller.html" alt="DMXSimpleController&lt; DATA_PIN, RGB_ORDER &gt;" shape="rect" coords="5808,336,6766,360"/>
+<area href="class_w_s2801_controller.html" alt="WS2801Controller&lt; DATA_PIN, CLOCK_PIN, RGB, DATA_RATE_MHZ(25) &gt;" shape="rect" coords="5808,392,6766,416"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:af4376e36319823c1c2fc1204189f8b57" id="r_af4376e36319823c1c2fc1204189f8b57"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4376e36319823c1c2fc1204189f8b57">showColor</a> (const <a class="el" href="struct_c_r_g_b.html">CRGB</a> &amp;data, int nLeds, uint8_t brightness)=0</td></tr>
+<tr class="memdesc:af4376e36319823c1c2fc1204189f8b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set all the LEDs to a given color.  <br /></td></tr>
+<tr class="separator:af4376e36319823c1c2fc1204189f8b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc8fb063666d03527aabc86d8531e007" id="r_afc8fb063666d03527aabc86d8531e007"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc8fb063666d03527aabc86d8531e007">show</a> (const struct <a class="el" href="struct_c_r_g_b.html">CRGB</a> *data, int nLeds, uint8_t brightness)=0</td></tr>
+<tr class="memdesc:afc8fb063666d03527aabc86d8531e007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the passed in RGB data out to the LEDs managed by this controller.  <br /></td></tr>
+<tr class="separator:afc8fb063666d03527aabc86d8531e007"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1f024ba880d94121fd39d5fea0ff70a" id="r_ac1f024ba880d94121fd39d5fea0ff70a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_l_e_d_controller.html">CLEDController</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac1f024ba880d94121fd39d5fea0ff70a">setRgbw</a> (const <a class="el" href="struct_rgbw.html">Rgbw</a> &amp;arg=RgbwDefault::value())</td></tr>
 <tr class="separator:ac1f024ba880d94121fd39d5fea0ff70a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba63d95172bbbc4138997cbd716c3bdd" id="r_aba63d95172bbbc4138997cbd716c3bdd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aba63d95172bbbc4138997cbd716c3bdd">setEnabled</a> (bool enabled)</td></tr>
@@ -235,7 +244,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a0b9abe02a684f8d19e5d45f7cc37763a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the color temperature, aka white point, for this controller.     <br /></td></tr>
 <tr class="separator:a0b9abe02a684f8d19e5d45f7cc37763a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc94e9d029d7e59f56a4ab845f3de32d" id="r_afc94e9d029d7e59f56a4ab845f3de32d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_c_r_g_b.html">CRGB</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc94e9d029d7e59f56a4ab845f3de32d">getTemperature</a> ()</td></tr>
-<tr class="memdesc:afc94e9d029d7e59f56a4ab845f3de32d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the color temperature, aka whipe point, for this controller.  <br /></td></tr>
+<tr class="memdesc:afc94e9d029d7e59f56a4ab845f3de32d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the color temperature, aka white point, for this controller.  <br /></td></tr>
 <tr class="separator:afc94e9d029d7e59f56a4ab845f3de32d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6173cca91ee446766cc15102990d7bb" id="r_af6173cca91ee446766cc15102990d7bb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_c_r_g_b.html">CRGB</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af6173cca91ee446766cc15102990d7bb">getAdjustment</a> (uint8_t scale)</td></tr>
 <tr class="memdesc:af6173cca91ee446766cc15102990d7bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the combined brightness/color adjustment for this controller.  <br /></td></tr>
@@ -254,15 +263,6 @@ Static Public Member Functions</h2></td></tr>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a67632cb7348cf5ef9be6575056322259" id="r_a67632cb7348cf5ef9be6575056322259"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_rgbw.html">Rgbw</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a67632cb7348cf5ef9be6575056322259">mRgbMode</a> = RgbwInvalid::value()</td></tr>
 <tr class="separator:a67632cb7348cf5ef9be6575056322259"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:af4376e36319823c1c2fc1204189f8b57" id="r_af4376e36319823c1c2fc1204189f8b57"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af4376e36319823c1c2fc1204189f8b57">showColor</a> (const <a class="el" href="struct_c_r_g_b.html">CRGB</a> &amp;data, int nLeds, uint8_t brightness)=0</td></tr>
-<tr class="memdesc:af4376e36319823c1c2fc1204189f8b57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set all the LEDs to a given color.  <br /></td></tr>
-<tr class="separator:af4376e36319823c1c2fc1204189f8b57"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc8fb063666d03527aabc86d8531e007" id="r_afc8fb063666d03527aabc86d8531e007"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc8fb063666d03527aabc86d8531e007">show</a> (const struct <a class="el" href="struct_c_r_g_b.html">CRGB</a> *data, int nLeds, uint8_t brightness)=0</td></tr>
-<tr class="memdesc:afc8fb063666d03527aabc86d8531e007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write the passed in RGB data out to the LEDs managed by this controller.  <br /></td></tr>
-<tr class="separator:afc8fb063666d03527aabc86d8531e007"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -629,7 +629,7 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get the color temperature, aka whipe point, for this controller. </p>
+<p>Get the color temperature, aka white point, for this controller. </p>
 <dl class="section return"><dt>Returns</dt><dd>the current color temperature (<a class="el" href="#adb7c56ce6c3f11f392613c3b9bf8c727" title="CRGB object representing the color temperature to apply to the strip on show()">CLEDController::m_ColorTemperature</a>) </dd></dl>
 
 <p class="definition">Definition at line <a class="el" href="cled__controller_8h_source.html#l00262">262</a> of file <a class="el" href="cled__controller_8h_source.html">cled_controller.h</a>.</p>
@@ -721,7 +721,7 @@ Friends</h2></td></tr>
 <p>How many Lanes does this controller manage? </p>
 <dl class="section return"><dt>Returns</dt><dd>1 for a non-Parallel controller </dd></dl>
 
-<p>Reimplemented in <a class="el" href="class_c_pixel_l_e_d_controller.html#a49852a9e0d1d479a430f1843e4ee6314">CPixelLEDController&lt; RGB_ORDER, LANES, MASK &gt;</a>, <a class="el" href="class_c_pixel_l_e_d_controller.html#a49852a9e0d1d479a430f1843e4ee6314">CPixelLEDController&lt; GRB, CONTROLLER::LANES_VALUE, CONTROLLER::MASK_VALUE &gt;</a>, and <a class="el" href="class_c_pixel_l_e_d_controller.html#a49852a9e0d1d479a430f1843e4ee6314">CPixelLEDController&lt; RGB &gt;</a>.</p>
+<p>Reimplemented in <a class="el" href="class_c_pixel_l_e_d_controller.html#a49852a9e0d1d479a430f1843e4ee6314">CPixelLEDController&lt; RGB_ORDER, LANES, MASK &gt;</a>, <a class="el" href="class_c_pixel_l_e_d_controller.html#a49852a9e0d1d479a430f1843e4ee6314">CPixelLEDController&lt; GRB, CONTROLLER::LANES_VALUE, CONTROLLER::MASK_VALUE &gt;</a>, <a class="el" href="class_c_pixel_l_e_d_controller.html#a49852a9e0d1d479a430f1843e4ee6314">CPixelLEDController&lt; GRB, WS2812Controller800Khz&lt; DATA_PIN, RGB &gt;::LANES_VALUE, WS2812Controller800Khz&lt; DATA_PIN, RGB &gt;::MASK_VALUE &gt;</a>, <a class="el" href="class_c_pixel_l_e_d_controller.html#a49852a9e0d1d479a430f1843e4ee6314">CPixelLEDController&lt; RGB &gt;</a>, and <a class="el" href="class_c_pixel_l_e_d_controller.html#a49852a9e0d1d479a430f1843e4ee6314">CPixelLEDController&lt; RGB_ORDER, WS2812Controller800Khz&lt; DATA_PIN, RGB &gt;::LANES_VALUE, WS2812Controller800Khz&lt; DATA_PIN, RGB &gt;::MASK_VALUE &gt;</a>.</p>
 
 <p class="definition">Definition at line <a class="el" href="cled__controller_8h_source.html#l00177">177</a> of file <a class="el" href="cled__controller_8h_source.html">cled_controller.h</a>.</p>
 
@@ -1209,7 +1209,7 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1224,7 +1224,7 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="class_c_pixel_l_e_d_controller.html#a12a891e205028cffb6ce21857850416c">CPixelLEDController&lt; RGB_ORDER, LANES, MASK &gt;</a>, <a class="el" href="class_c_pixel_l_e_d_controller.html#a12a891e205028cffb6ce21857850416c">CPixelLEDController&lt; GRB, CONTROLLER::LANES_VALUE, CONTROLLER::MASK_VALUE &gt;</a>, and <a class="el" href="class_c_pixel_l_e_d_controller.html#a12a891e205028cffb6ce21857850416c">CPixelLEDController&lt; RGB &gt;</a>.</p>
+<p>Implemented in <a class="el" href="class_c_pixel_l_e_d_controller.html#a12a891e205028cffb6ce21857850416c">CPixelLEDController&lt; RGB_ORDER, LANES, MASK &gt;</a>, <a class="el" href="class_c_pixel_l_e_d_controller.html#a12a891e205028cffb6ce21857850416c">CPixelLEDController&lt; GRB, CONTROLLER::LANES_VALUE, CONTROLLER::MASK_VALUE &gt;</a>, <a class="el" href="class_c_pixel_l_e_d_controller.html#a12a891e205028cffb6ce21857850416c">CPixelLEDController&lt; GRB, WS2812Controller800Khz&lt; DATA_PIN, RGB &gt;::LANES_VALUE, WS2812Controller800Khz&lt; DATA_PIN, RGB &gt;::MASK_VALUE &gt;</a>, <a class="el" href="class_c_pixel_l_e_d_controller.html#a12a891e205028cffb6ce21857850416c">CPixelLEDController&lt; RGB &gt;</a>, and <a class="el" href="class_c_pixel_l_e_d_controller.html#a12a891e205028cffb6ce21857850416c">CPixelLEDController&lt; RGB_ORDER, WS2812Controller800Khz&lt; DATA_PIN, RGB &gt;::LANES_VALUE, WS2812Controller800Khz&lt; DATA_PIN, RGB &gt;::MASK_VALUE &gt;</a>.</p>
 
 </div>
 </div>
@@ -1255,7 +1255,7 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -1270,7 +1270,7 @@ Friends</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="class_c_pixel_l_e_d_controller.html#aa4c1675ad3be1055251ea482be2d7a15">CPixelLEDController&lt; RGB_ORDER, LANES, MASK &gt;</a>, <a class="el" href="class_c_pixel_l_e_d_controller.html#aa4c1675ad3be1055251ea482be2d7a15">CPixelLEDController&lt; GRB, CONTROLLER::LANES_VALUE, CONTROLLER::MASK_VALUE &gt;</a>, and <a class="el" href="class_c_pixel_l_e_d_controller.html#aa4c1675ad3be1055251ea482be2d7a15">CPixelLEDController&lt; RGB &gt;</a>.</p>
+<p>Implemented in <a class="el" href="class_c_pixel_l_e_d_controller.html#aa4c1675ad3be1055251ea482be2d7a15">CPixelLEDController&lt; RGB_ORDER, LANES, MASK &gt;</a>, <a class="el" href="class_c_pixel_l_e_d_controller.html#aa4c1675ad3be1055251ea482be2d7a15">CPixelLEDController&lt; GRB, CONTROLLER::LANES_VALUE, CONTROLLER::MASK_VALUE &gt;</a>, <a class="el" href="class_c_pixel_l_e_d_controller.html#aa4c1675ad3be1055251ea482be2d7a15">CPixelLEDController&lt; GRB, WS2812Controller800Khz&lt; DATA_PIN, RGB &gt;::LANES_VALUE, WS2812Controller800Khz&lt; DATA_PIN, RGB &gt;::MASK_VALUE &gt;</a>, <a class="el" href="class_c_pixel_l_e_d_controller.html#aa4c1675ad3be1055251ea482be2d7a15">CPixelLEDController&lt; RGB &gt;</a>, and <a class="el" href="class_c_pixel_l_e_d_controller.html#aa4c1675ad3be1055251ea482be2d7a15">CPixelLEDController&lt; RGB_ORDER, WS2812Controller800Khz&lt; DATA_PIN, RGB &gt;::LANES_VALUE, WS2812Controller800Khz&lt; DATA_PIN, RGB &gt;::MASK_VALUE &gt;</a>.</p>
 
 </div>
 </div>
@@ -1790,7 +1790,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_c_l_e_d_controller.html">CLEDController</a></li>
-    <li class="footer">Generated on Mon Jan 13 2025 00:51:57 for FastLED by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated on Wed Jan 22 2025 01:23:03 for FastLED by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 <!-- ... -->

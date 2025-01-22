@@ -35,7 +35,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="fastled_logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">FastLED<span id="projectnumber">&#160;3.9.11</span>
+   <div id="projectname">FastLED<span id="projectnumber">&#160;3.9.12</span>
    </div>
   </td>
  </tr>
@@ -109,7 +109,8 @@ $(function(){initNavTree('colorutils_8h.html',''); initResizable(true); });
 <a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">colorutils.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
@@ -121,6 +122,7 @@ $(function(){initNavTree('colorutils_8h.html',''); initResizable(true); });
 <code>#include &quot;<a class="el" href="pixeltypes_8h_source.html">pixeltypes.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="fastled__progmem_8h_source.html">fastled_progmem.h</a>&quot;</code><br />
 <code>#include &quot;fl/xymap.h&quot;</code><br />
+<code>#include &quot;fl/deprecated.h&quot;</code><br />
 </div>
 <p><a href="colorutils_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -317,6 +319,9 @@ Functions</h2></td></tr>
 <tr class="memitem:gadfd6e9dc2b0c79922d8d4be9d94cf5f5" id="r_gadfd6e9dc2b0c79922d8d4be9d94cf5f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___color_blurs.html#gadfd6e9dc2b0c79922d8d4be9d94cf5f5">blur2d</a> (<a class="el" href="struct_c_r_g_b.html">CRGB</a> *leds, uint8_t width, uint8_t height, <a class="el" href="group___fractional_types.html#ga5d6d013429a5b8a09d564d6137217644">fract8</a> blur_amount, const <a class="el" href="classfl_1_1_x_y_map.html">fl::XYMap</a> &amp;xymap)</td></tr>
 <tr class="memdesc:gadfd6e9dc2b0c79922d8d4be9d94cf5f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Two-dimensional blur filter.  <br /></td></tr>
 <tr class="separator:gadfd6e9dc2b0c79922d8d4be9d94cf5f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gace329fff1ff6337897dcb791357ca51a" id="r_gace329fff1ff6337897dcb791357ca51a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___color_blurs.html#gace329fff1ff6337897dcb791357ca51a">blur2d</a> (<a class="el" href="struct_c_r_g_b.html">CRGB</a> *leds, uint8_t width, uint8_t height, <a class="el" href="group___fractional_types.html#ga5d6d013429a5b8a09d564d6137217644">fract8</a> blur_amount) FASTLED_DEPRECATED(&quot;Use blur2d(...</td></tr>
+<tr class="memdesc:gace329fff1ff6337897dcb791357ca51a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Legacy version of blur2d, which does not require an XYMap but instead implicitly binds to XY() function.  <br /></td></tr>
+<tr class="separator:gace329fff1ff6337897dcb791357ca51a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3000f2662fe45e9424c02b0d35f40b21" id="r_ga3000f2662fe45e9424c02b0d35f40b21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___color_blurs.html#ga3000f2662fe45e9424c02b0d35f40b21">blurRows</a> (<a class="el" href="struct_c_r_g_b.html">CRGB</a> *leds, uint8_t width, uint8_t height, <a class="el" href="group___fractional_types.html#ga5d6d013429a5b8a09d564d6137217644">fract8</a> blur_amount, const <a class="el" href="classfl_1_1_x_y_map.html">fl::XYMap</a> &amp;xymap)</td></tr>
 <tr class="memdesc:ga3000f2662fe45e9424c02b0d35f40b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a <a class="el" href="group___color_blurs.html#gaacf0416f9e0438f23f92d0df6c338ea3" title="One-dimensional blur filter.">blur1d()</a> on every row of a rectangular matrix.  <br /></td></tr>
 <tr class="separator:ga3000f2662fe45e9424c02b0d35f40b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -412,6 +417,11 @@ Functions</h2></td></tr>
 <tr class="memitem:gac8d8e24305e35eda2e8717c688f36ca4" id="r_gac8d8e24305e35eda2e8717c688f36ca4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___gamma_funcs.html#gac8d8e24305e35eda2e8717c688f36ca4">napplyGamma_video</a> (<a class="el" href="struct_c_r_g_b.html">CRGB</a> *rgbarray, uint16_t count, float gammaR, float gammaG, float gammaB)</td></tr>
 <tr class="memdesc:gac8d8e24305e35eda2e8717c688f36ca4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructively applies a gamma adjustment to a color array.  <br /></td></tr>
 <tr class="separator:gac8d8e24305e35eda2e8717c688f36ca4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:ga29f7d2b754596b861cd5e778222f9885" id="r_ga29f7d2b754596b861cd5e778222f9885"><td class="memItemLeft" align="right" valign="top">void const <a class="el" href="classfl_1_1_x_y_map.html">fl::XYMap</a> &amp;xymap&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___color_blurs.html#ga29f7d2b754596b861cd5e778222f9885">instead</a></td></tr>
+<tr class="separator:ga29f7d2b754596b861cd5e778222f9885"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
 <a id="a411fcee795cb5527817e708ae5aa9549" name="a411fcee795cb5527817e708ae5aa9549"></a>
@@ -434,7 +444,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p>Forward-declaration macro for <a class="el" href="#a180d83b9f32efe5825c8612fa8720d79" title="Defines a static RGB palette very compactly using a series of connected color gradients.">DEFINE_GRADIENT_PALETTE(X)</a> </p>
 
-<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00071">71</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00074">74</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
 
 </div>
 </div>
@@ -464,10 +474,10 @@ Functions</h2></td></tr>
 <div class="line">    192, 255,   0,   0,  <span class="comment">/* at index 192, red(255,0,0) */</span></div>
 <div class="line">    255, 255, 255, 255   <span class="comment">/* at index 255, white(255,255,255) */</span></div>
 <div class="line">};</div>
-<div class="ttc" id="acolorutils_8h_html_a180d83b9f32efe5825c8612fa8720d79"><div class="ttname"><a href="#a180d83b9f32efe5825c8612fa8720d79">DEFINE_GRADIENT_PALETTE</a></div><div class="ttdeci">#define DEFINE_GRADIENT_PALETTE(X)</div><div class="ttdoc">Defines a static RGB palette very compactly using a series of connected color gradients.</div><div class="ttdef"><b>Definition</b> <a href="colorutils_8h_source.html#l00066">colorutils.h:66</a></div></div>
+<div class="ttc" id="acolorutils_8h_html_a180d83b9f32efe5825c8612fa8720d79"><div class="ttname"><a href="#a180d83b9f32efe5825c8612fa8720d79">DEFINE_GRADIENT_PALETTE</a></div><div class="ttdeci">#define DEFINE_GRADIENT_PALETTE(X)</div><div class="ttdoc">Defines a static RGB palette very compactly using a series of connected color gradients.</div><div class="ttdef"><b>Definition</b> <a href="colorutils_8h_source.html#l00069">colorutils.h:69</a></div></div>
 </div><!-- fragment --><p>This format is designed for compact storage. The example palette here takes up just 12 bytes of PROGMEM (flash) storage, and zero bytes of SRAM when not currently in use.</p>
 <p>To use one of these gradient palettes, simply assign it into a <a class="el" href="class_c_r_g_b_palette16.html" title="RGB color palette with 16 discrete values.">CRGBPalette16</a> or a <a class="el" href="class_c_r_g_b_palette256.html" title="RGB color palette with 256 discrete values.">CRGBPalette256</a>, like this: </p><div class="fragment"><div class="line"><a class="code hl_class" href="class_c_r_g_b_palette16.html">CRGBPalette16</a> pal = black_to_red_to_white_p;</div>
-<div class="ttc" id="aclass_c_r_g_b_palette16_html"><div class="ttname"><a href="class_c_r_g_b_palette16.html">CRGBPalette16</a></div><div class="ttdoc">RGB color palette with 16 discrete values.</div><div class="ttdef"><b>Definition</b> <a href="colorutils_8h_source.html#l00997">colorutils.h:997</a></div></div>
+<div class="ttc" id="aclass_c_r_g_b_palette16_html"><div class="ttname"><a href="class_c_r_g_b_palette16.html">CRGBPalette16</a></div><div class="ttdoc">RGB color palette with 16 discrete values.</div><div class="ttdef"><b>Definition</b> <a href="colorutils_8h_source.html#l01004">colorutils.h:1004</a></div></div>
 </div><!-- fragment --><p>When the assignment is made, the gradients are expanded out into either 16 or 256 palette entries, depending on the kind of palette object they're assigned to.</p>
 <dl class="section warning"><dt>Warning</dt><dd>The last "index" position <b>MUST</b> be 255! Failure to end with index 255 will result in program hangs or crashes. <br  />
  </dd></dl>
@@ -475,7 +485,7 @@ Functions</h2></td></tr>
 <dl class="section warning"><dt>Warning</dt><dd>At this point, these gradient palette definitions <b>MUST</b> be stored in PROGMEM on AVR-based Arduinos. If you use the <code>DEFINE_GRADIENT_PALETTE</code> macro, this is taken of automatically.</dd></dl>
 <p>TProgmemRGBGradientPalette_byte must remain in the global namespace. </p>
 
-<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00066">66</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00069">69</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
 
 </div>
 </div>
@@ -495,7 +505,7 @@ Functions</h2></td></tr>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_color_palette_8ino-example.html#a2">ColorPalette.ino</a>.</dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00079">79</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00082">82</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
 
 </div>
 </div>
@@ -513,7 +523,7 @@ Functions</h2></td></tr>
 
 <p>Alias for TProgmemRGBPalette32. </p>
 
-<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00083">83</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00086">86</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
 
 </div>
 </div>
@@ -532,7 +542,7 @@ Functions</h2></td></tr>
 
 <p><a class="el" href="class_c_h_s_v_palette16.html" title="HSV color palette with 16 discrete values.">CHSVPalette16</a> entries stored in PROGMEM memory. </p>
 
-<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00077">77</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00080">80</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
 
 </div>
 </div>
@@ -550,7 +560,7 @@ Functions</h2></td></tr>
 
 <p><a class="el" href="class_c_h_s_v_palette32.html" title="HSV color palette with 32 discrete values.">CHSVPalette32</a> entries stored in PROGMEM memory. </p>
 
-<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00081">81</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00084">84</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
 
 </div>
 </div>
@@ -568,7 +578,7 @@ Functions</h2></td></tr>
 
 <p>Byte of an RGB gradient, stored in PROGMEM memory. </p>
 
-<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00086">86</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00089">89</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
 
 </div>
 </div>
@@ -589,7 +599,7 @@ Functions</h2></td></tr>
 <dd>
 <a class="el" href="#a411fcee795cb5527817e708ae5aa9549" title="Forward-declaration macro for DEFINE_GRADIENT_PALETTE(X)">DECLARE_GRADIENT_PALETTE</a> </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00090">90</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00093">93</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
 
 </div>
 </div>
@@ -607,7 +617,7 @@ Functions</h2></td></tr>
 
 <p>Alias of <a class="el" href="#a56cb3bce8ab7c903689192abedcc9699" title="Pointer to bytes of an RGB gradient, stored in PROGMEM memory.">TProgmemRGBGradientPalette_bytes</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00092">92</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00095">95</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
 
 </div>
 </div>
@@ -627,7 +637,7 @@ Functions</h2></td></tr>
 <dl class="section examples"><dt>Examples</dt><dd><a class="el" href="_twinkle_fox_8ino-example.html#a22">TwinkleFox.ino</a>.</dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00076">76</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00079">79</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
 
 </div>
 </div>
@@ -645,7 +655,7 @@ Functions</h2></td></tr>
 
 <p><a class="el" href="class_c_r_g_b_palette32.html" title="RGB color palette with 32 discrete values.">CRGBPalette32</a> entries stored in PROGMEM memory. </p>
 
-<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00080">80</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
+<p class="definition">Definition at line <a class="el" href="colorutils_8h_source.html#l00083">83</a> of file <a class="el" href="colorutils_8h_source.html">colorutils.h</a>.</p>
 
 </div>
 </div>
@@ -656,7 +666,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="colorutils_8h.html">colorutils.h</a></li>
-    <li class="footer">Generated on Mon Jan 13 2025 00:51:57 for FastLED by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated on Wed Jan 22 2025 01:23:03 for FastLED by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 <!-- ... -->

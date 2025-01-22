@@ -169,7 +169,7 @@ var struct_c_r_g_b =
     [ "lerp8", "struct_c_r_g_b.html#a858435ed102057edaa676bd6d3d1e9cf", null ],
     [ "maximizeBrightness", "struct_c_r_g_b.html#ae830bc1aa13586a2cc64111682d00716", null ],
     [ "nscale8", "struct_c_r_g_b.html#af4de5b08570506c68faae82dce96aa85", null ],
-    [ "nscale8", "struct_c_r_g_b.html#a4a0410f246cee6b2dedfd8d3c466b003", null ],
+    [ "nscale8", "struct_c_r_g_b.html#a5a3c3370a7de840ac31c07f6dc9bdb63", null ],
     [ "nscale8_video", "struct_c_r_g_b.html#a0441d6094ab8f98d800ec789c36b4461", null ],
     [ "operator bool", "struct_c_r_g_b.html#aa921e93edeab6ecbe0c4f1a04c78b836", null ],
     [ "operator rgb24", "struct_c_r_g_b.html#a960ff9a29c05b35e12ed2cfe5cbc2ad7", null ],

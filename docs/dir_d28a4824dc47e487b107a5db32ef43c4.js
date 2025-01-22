@@ -53,5 +53,6 @@ var dir_d28a4824dc47e487b107a5db32ef43c4 =
     [ "TwinkleFox", "dir_3d7f0dd01d50ae27368def194e8e7b46.html", "dir_3d7f0dd01d50ae27368def194e8e7b46" ],
     [ "wasm", "dir_a5f15344905e1cdba3f0cc6e4b36e105.html", "dir_a5f15344905e1cdba3f0cc6e4b36e105" ],
     [ "WasmScreenCoords", "dir_75afe82a44c9d3274eef9e58c545822a.html", "dir_75afe82a44c9d3274eef9e58c545822a" ],
+    [ "WS2816", "dir_cb4a10e64a7e9eee0f3b58f5f8b62c83.html", "dir_cb4a10e64a7e9eee0f3b58f5f8b62c83" ],
     [ "XYMatrix", "dir_a1f73a1624754db6b6179d3280e34825.html", "dir_a1f73a1624754db6b6179d3280e34825" ]
 ];

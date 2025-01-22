@@ -276,5 +276,7 @@ var annotated_dup =
     [ "WS2813Controller", "class_w_s2813_controller.html", null ],
     [ "WS2815", "class_w_s2815.html", null ],
     [ "WS2815Controller", "class_w_s2815_controller.html", null ],
+    [ "WS2816", "class_w_s2816.html", null ],
+    [ "WS2816Controller", "class_w_s2816_controller.html", "class_w_s2816_controller" ],
     [ "WS2852", "class_w_s2852.html", null ]
 ];

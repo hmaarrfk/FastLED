@@ -35,7 +35,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="fastled_logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">FastLED<span id="projectnumber">&#160;3.9.11</span>
+   <div id="projectname">FastLED<span id="projectnumber">&#160;3.9.12</span>
    </div>
   </td>
  </tr>
@@ -118,7 +118,7 @@ $(function(){initNavTree('group___color_palettes.html',''); initResizable(true);
 <p>Basic operation is like this (using the 16-entry variety):</p>
 <ol type="1">
 <li>Declare your palette storage: <div class="fragment"><div class="line"><a class="code hl_class" href="class_c_r_g_b_palette16.html">CRGBPalette16</a> myPalette;</div>
-<div class="ttc" id="aclass_c_r_g_b_palette16_html"><div class="ttname"><a href="class_c_r_g_b_palette16.html">CRGBPalette16</a></div><div class="ttdoc">RGB color palette with 16 discrete values.</div><div class="ttdef"><b>Definition</b> <a href="colorutils_8h_source.html#l00997">colorutils.h:997</a></div></div>
+<div class="ttc" id="aclass_c_r_g_b_palette16_html"><div class="ttname"><a href="class_c_r_g_b_palette16.html">CRGBPalette16</a></div><div class="ttdoc">RGB color palette with 16 discrete values.</div><div class="ttdef"><b>Definition</b> <a href="colorutils_8h_source.html#l01004">colorutils.h:1004</a></div></div>
 </div><!-- fragment --></li>
 <li><p class="startli">Fill <code>myPalette</code> with your own 16 colors, or with a preset color scheme. You can specify your 16 colors a variety of ways: </p><div class="fragment"><div class="line"><a class="code hl_class" href="class_c_r_g_b_palette16.html">CRGBPalette16</a> myPalette(</div>
 <div class="line">    <a class="code hl_enumvalue" href="struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99abde6007b13c22c05d888db898ec814a7">CRGB::Black</a>,</div>
@@ -153,7 +153,7 @@ $(function(){initNavTree('group___color_palettes.html',''); initResizable(true);
 <li><p class="startli">Any time you want to set a pixel to a color from your palette, use <code><a class="el" href="group___palette_colors.html#gac46e65aff3dd6519b33e27f0998f17cd" title="Get a color from a palette.">ColorFromPalette()</a></code> as shown:</p>
 <div class="fragment"><div class="line">uint8_t index = <span class="comment">/* any value 0-255 */</span>;</div>
 <div class="line">leds[i] = <a class="code hl_function" href="group___palette_colors.html#gac46e65aff3dd6519b33e27f0998f17cd">ColorFromPalette</a>(myPalette, index);</div>
-<div class="ttc" id="agroup___palette_colors_html_gac46e65aff3dd6519b33e27f0998f17cd"><div class="ttname"><a href="group___palette_colors.html#gac46e65aff3dd6519b33e27f0998f17cd">ColorFromPalette</a></div><div class="ttdeci">CRGB ColorFromPalette(const CRGBPalette16 &amp;pal, uint8_t index, uint8_t brightness, TBlendType blendType)</div><div class="ttdoc">Get a color from a palette.</div><div class="ttdef"><b>Definition</b> <a href="colorutils_8cpp_source.html#l00606">colorutils.cpp:606</a></div></div>
+<div class="ttc" id="agroup___palette_colors_html_gac46e65aff3dd6519b33e27f0998f17cd"><div class="ttname"><a href="group___palette_colors.html#gac46e65aff3dd6519b33e27f0998f17cd">ColorFromPalette</a></div><div class="ttdeci">CRGB ColorFromPalette(const CRGBPalette16 &amp;pal, uint8_t index, uint8_t brightness, TBlendType blendType)</div><div class="ttdoc">Get a color from a palette.</div><div class="ttdef"><b>Definition</b> <a href="colorutils_8cpp_source.html#l00644">colorutils.cpp:644</a></div></div>
 </div><!-- fragment --><p class="startli">Even though your palette has only 16 explicily defined entries, you can use an "index" from 0-255. The 16 explicit palette entries will be spread evenly across the 0-255 range, and the intermedate values will be RGB-interpolated between adjacent explicit entries.</p>
 <p class="startli">It's easier to use than it sounds. </p>
 </li>
@@ -180,7 +180,7 @@ Topics</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Jan 13 2025 00:51:57 for FastLED by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated on Wed Jan 22 2025 01:23:03 for FastLED by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 <!-- ... -->

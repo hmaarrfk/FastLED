@@ -45,6 +45,7 @@ var group___clockless_chipsets =
     [ "UCS2903< DATA_PIN, RGB_ORDER >", "class_u_c_s2903.html", null ],
     [ "WS2812< DATA_PIN, RGB_ORDER >", "class_w_s2812.html", null ],
     [ "WS2815< DATA_PIN, RGB_ORDER >", "class_w_s2815.html", null ],
+    [ "WS2816< DATA_PIN, RGB_ORDER >", "class_w_s2816.html", null ],
     [ "WS2852< DATA_PIN, RGB_ORDER >", "class_w_s2852.html", null ],
     [ "WS2812B< DATA_PIN, RGB_ORDER >", "class_w_s2812_b.html", null ],
     [ "GS1903< DATA_PIN, RGB_ORDER >", "class_g_s1903.html", null ],

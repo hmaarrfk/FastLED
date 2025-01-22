@@ -35,7 +35,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="fastled_logo.png"/></td>
   <td id="projectalign">
-   <div id="projectname">FastLED<span id="projectnumber">&#160;3.9.11</span>
+   <div id="projectname">FastLED<span id="projectnumber">&#160;3.9.12</span>
    </div>
   </td>
  </tr>
@@ -118,11 +118,23 @@ $(function(){initNavTree('colorutils_8cpp.html',''); initResizable(true); });
 <code>#include &lt;math.h&gt;</code><br />
 <code>#include &quot;<a class="el" href="_fast_l_e_d_8h_source.html">FastLED.h</a>&quot;</code><br />
 <code>#include &quot;fl/xymap.h&quot;</code><br />
+<code>#include &quot;fl/unused.h&quot;</code><br />
 </div>
 <p><a href="colorutils_8cpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:a2d8dda85477a00deab830effc5159d33" id="r_a2d8dda85477a00deab830effc5159d33"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2d8dda85477a00deab830effc5159d33">FASTLED_INTERNAL</a></td></tr>
+<tr class="separator:a2d8dda85477a00deab830effc5159d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00167d1f0bf80faa62c6d8952f540f82" id="r_a00167d1f0bf80faa62c6d8952f540f82"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a00167d1f0bf80faa62c6d8952f540f82">__PROG_TYPES_COMPAT__</a></td></tr>
+<tr class="separator:a00167d1f0bf80faa62c6d8952f540f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af576bf8ffa22a44e53018c67095ffbf0" id="r_af576bf8ffa22a44e53018c67095ffbf0"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(x)&#160;&#160;&#160;((void)0)</td></tr>
+<tr class="separator:af576bf8ffa22a44e53018c67095ffbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a7aa2d780d14ccc2f3ce3c493e01999eb" id="r_a7aa2d780d14ccc2f3ce3c493e01999eb"><td class="memItemLeft" align="right" valign="top">uint16_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a7aa2d780d14ccc2f3ce3c493e01999eb">XY</a> (uint8_t x, uint8_t y)</td></tr>
+<tr class="separator:a7aa2d780d14ccc2f3ce3c493e01999eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:gac0bcd5712f9f57a186f2c5f96911af1d" id="r_gac0bcd5712f9f57a186f2c5f96911af1d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___color_fills.html#gac0bcd5712f9f57a186f2c5f96911af1d">fill_solid</a> (struct <a class="el" href="struct_c_r_g_b.html">CRGB</a> *targetArray, int numToFill, const struct <a class="el" href="struct_c_r_g_b.html">CRGB</a> &amp;color)</td></tr>
 <tr class="memdesc:gac0bcd5712f9f57a186f2c5f96911af1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fill a range of LEDs with a solid color.  <br /></td></tr>
 <tr class="separator:gac0bcd5712f9f57a186f2c5f96911af1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -204,6 +216,8 @@ Functions</h2></td></tr>
 <tr class="memitem:gadfd6e9dc2b0c79922d8d4be9d94cf5f5" id="r_gadfd6e9dc2b0c79922d8d4be9d94cf5f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___color_blurs.html#gadfd6e9dc2b0c79922d8d4be9d94cf5f5">blur2d</a> (<a class="el" href="struct_c_r_g_b.html">CRGB</a> *leds, uint8_t width, uint8_t height, <a class="el" href="group___fractional_types.html#ga5d6d013429a5b8a09d564d6137217644">fract8</a> blur_amount, const <a class="el" href="classfl_1_1_x_y_map.html">XYMap</a> &amp;xymap)</td></tr>
 <tr class="memdesc:gadfd6e9dc2b0c79922d8d4be9d94cf5f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Two-dimensional blur filter.  <br /></td></tr>
 <tr class="separator:gadfd6e9dc2b0c79922d8d4be9d94cf5f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae97f9574ca4fa1a7ab65782b2a804fba" id="r_ae97f9574ca4fa1a7ab65782b2a804fba"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ae97f9574ca4fa1a7ab65782b2a804fba">blur2d</a> (<a class="el" href="struct_c_r_g_b.html">CRGB</a> *leds, uint8_t width, uint8_t height, <a class="el" href="group___fractional_types.html#ga5d6d013429a5b8a09d564d6137217644">fract8</a> blur_amount)</td></tr>
+<tr class="separator:ae97f9574ca4fa1a7ab65782b2a804fba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga3000f2662fe45e9424c02b0d35f40b21" id="r_ga3000f2662fe45e9424c02b0d35f40b21"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group___color_blurs.html#ga3000f2662fe45e9424c02b0d35f40b21">blurRows</a> (<a class="el" href="struct_c_r_g_b.html">CRGB</a> *leds, uint8_t width, uint8_t height, <a class="el" href="group___fractional_types.html#ga5d6d013429a5b8a09d564d6137217644">fract8</a> blur_amount, const <a class="el" href="classfl_1_1_x_y_map.html">XYMap</a> &amp;xyMap)</td></tr>
 <tr class="memdesc:ga3000f2662fe45e9424c02b0d35f40b21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perform a <a class="el" href="group___color_blurs.html#gaacf0416f9e0438f23f92d0df6c338ea3" title="One-dimensional blur filter.">blur1d()</a> on every row of a rectangular matrix.  <br /></td></tr>
 <tr class="separator:ga3000f2662fe45e9424c02b0d35f40b21"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -308,6 +322,25 @@ Functions</h2></td></tr>
 
 </div>
 </div>
+<a id="af576bf8ffa22a44e53018c67095ffbf0" name="af576bf8ffa22a44e53018c67095ffbf0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af576bf8ffa22a44e53018c67095ffbf0">&#9670;&#160;</a></span>assert</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define assert</td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>x</em></span></td><td>)</td>
+          <td>&#160;&#160;&#160;((void)0)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="colorutils_8cpp_source.html#l00018">18</a> of file <a class="el" href="colorutils_8cpp_source.html">colorutils.cpp</a>.</p>
+
+</div>
+</div>
 <a id="a2d8dda85477a00deab830effc5159d33" name="a2d8dda85477a00deab830effc5159d33"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2d8dda85477a00deab830effc5159d33">&#9670;&#160;</a></span>FASTLED_INTERNAL</h2>
 
@@ -325,6 +358,39 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
+<a id="ae97f9574ca4fa1a7ab65782b2a804fba" name="ae97f9574ca4fa1a7ab65782b2a804fba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae97f9574ca4fa1a7ab65782b2a804fba">&#9670;&#160;</a></span>blur2d()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void blur2d </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="struct_c_r_g_b.html">CRGB</a> *</td>          <td class="paramname"><span class="paramname"><em>leds</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>width</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>height</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="group___fractional_types.html#ga5d6d013429a5b8a09d564d6137217644">fract8</a></td>          <td class="paramname"><span class="paramname"><em>blur_amount</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="colorutils_8cpp_source.html#l00477">477</a> of file <a class="el" href="colorutils_8cpp_source.html">colorutils.cpp</a>.</p>
+
+</div>
+</div>
 <a id="ab445fd8641e95a3bbd1417d9783f6170" name="ab445fd8641e95a3bbd1417d9783f6170"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab445fd8641e95a3bbd1417d9783f6170">&#9670;&#160;</a></span>lsrX4()</h2>
 
@@ -351,7 +417,30 @@ Functions</h2></td></tr>
 <p>Helper function to divide a number by 16, aka four logical shift right (LSR)'s. </p>
 <p>On avr-gcc, "u8 &gt;&gt; 4" generates a loop, which is big, and slow. merely forcing it to be four /=2's causes avr-gcc to emit a SWAP instruction followed by an AND 0x0F, which is faster, and smaller. </p>
 
-<p class="definition">Definition at line <a class="el" href="colorutils_8cpp_source.html#l00548">548</a> of file <a class="el" href="colorutils_8cpp_source.html">colorutils.cpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="colorutils_8cpp_source.html#l00586">586</a> of file <a class="el" href="colorutils_8cpp_source.html">colorutils.cpp</a>.</p>
+
+</div>
+</div>
+<a id="a7aa2d780d14ccc2f3ce3c493e01999eb" name="a7aa2d780d14ccc2f3ce3c493e01999eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aa2d780d14ccc2f3ce3c493e01999eb">&#9670;&#160;</a></span>XY()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">uint16_t XY </td>
+          <td>(</td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>x</em></span>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">uint8_t</td>          <td class="paramname"><span class="paramname"><em>y</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="colorutils_8cpp_source.html#l00026">26</a> of file <a class="el" href="colorutils_8cpp_source.html">colorutils.cpp</a>.</p>
 
 </div>
 </div>
@@ -362,7 +451,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="colorutils_8cpp.html">colorutils.cpp</a></li>
-    <li class="footer">Generated on Mon Jan 13 2025 00:51:57 for FastLED by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
+    <li class="footer">Generated on Wed Jan 22 2025 01:23:03 for FastLED by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.11.0 </li>
   </ul>
 </div>
 <!-- ... -->
