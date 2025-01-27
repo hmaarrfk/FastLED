@@ -24,7 +24,9 @@ var _fast_l_e_d_8h =
       [ "SK9822HD", "_fast_l_e_d_8h.html#ac06549dc4a351e2c8f1dda8ae81f7926a3b67cd8706aa03d1d3e662a6199a87e2", null ],
       [ "DOTSTAR", "_fast_l_e_d_8h.html#ac06549dc4a351e2c8f1dda8ae81f7926aa38c183e00af9030ff455d2ae0e1d5c3", null ],
       [ "DOTSTARHD", "_fast_l_e_d_8h.html#ac06549dc4a351e2c8f1dda8ae81f7926ad74c74695186923a5bac9867ec57e281", null ],
-      [ "APA102HD", "_fast_l_e_d_8h.html#ac06549dc4a351e2c8f1dda8ae81f7926a00c730f7303410e1a5a22376b2f12d8f", null ]
+      [ "APA102HD", "_fast_l_e_d_8h.html#ac06549dc4a351e2c8f1dda8ae81f7926a00c730f7303410e1a5a22376b2f12d8f", null ],
+      [ "HD107", "_fast_l_e_d_8h.html#ac06549dc4a351e2c8f1dda8ae81f7926a51a8c92c470a49a8e4aec78b1749c31c", null ],
+      [ "HD107HD", "_fast_l_e_d_8h.html#ac06549dc4a351e2c8f1dda8ae81f7926ad15fcba44c11c93f5e0ada6dede0cc93", null ]
     ] ],
     [ "OWS2811", "_fast_l_e_d_8h.html#a69ae16731cd4ff30f81793033758d59c", [
       [ "OCTOWS2811", "_fast_l_e_d_8h.html#a69ae16731cd4ff30f81793033758d59ca10d9d52d47d8577b3e576c5f807d8086", null ],

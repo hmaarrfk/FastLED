@@ -179,6 +179,8 @@ var annotated_dup =
     [ "GW6205_400", "class_g_w6205__400.html", null ],
     [ "GW6205Controller400Khz", "class_g_w6205_controller400_khz.html", null ],
     [ "GW6205Controller800Khz", "class_g_w6205_controller800_khz.html", null ],
+    [ "HD107Controller", "class_h_d107_controller.html", null ],
+    [ "HD107HDController", "class_h_d107_h_d_controller.html", null ],
     [ "IEEE754binary32_t", "union_i_e_e_e754binary32__t.html", "union_i_e_e_e754binary32__t" ],
     [ "InputPin", "class_input_pin.html", "class_input_pin" ],
     [ "InterpData", "struct_interp_data.html", null ],

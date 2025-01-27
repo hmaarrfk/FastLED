@@ -1,4 +1,5 @@
 var class_w_s2816_controller =
 [
-    [ "showPixels", "class_w_s2816_controller.html#a1f6d230afc0c01f6480b283f949efd00", null ]
+    [ "ControllerT", "class_w_s2816_controller_1_1_controller_t.html", null ],
+    [ "showPixels", "class_w_s2816_controller.html#a7d9891631bb3b4e35dcbb93180ac8a55", null ]
 ];

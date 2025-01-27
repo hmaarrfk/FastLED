@@ -29,23 +29,24 @@ var index =
       [ "Exotic Setups", "index.html#autotoc_md23", null ]
     ] ],
     [ "New Feature Announcements", "index.html#autotoc_md24", [
-      [ "New in 3.9.10: Super Stable WS2812 SPI driver for ESP32", "index.html#autotoc_md25", null ],
-      [ "New in 3.9.9: 16-way Yves I2S parallel driver for the ESP32-S3", "index.html#autotoc_md26", null ],
-      [ "New in 3.9.8 - Massive Teensy 4.1 & 4.0 LED output", "index.html#autotoc_md27", null ],
-      [ "New in 3.9.2 - Overclocking of WS2812", "index.html#autotoc_md28", null ],
-      [ "Development", "index.html#autotoc_md29", [
-        [ "Testing other devices", "index.html#autotoc_md30", null ]
+      [ "New in 3.9.12: WS2816 \"HD\" LED support", "index.html#autotoc_md25", null ],
+      [ "New in 3.9.10: Super Stable WS2812 SPI driver for ESP32", "index.html#autotoc_md26", null ],
+      [ "New in 3.9.9: 16-way Yves I2S parallel driver for the ESP32-S3", "index.html#autotoc_md27", null ],
+      [ "New in 3.9.8 - Massive Teensy 4.1 & 4.0 LED output", "index.html#autotoc_md28", null ],
+      [ "New in 3.9.2 - Overclocking of WS2812", "index.html#autotoc_md29", null ],
+      [ "Development", "index.html#autotoc_md30", [
+        [ "Testing other devices", "index.html#autotoc_md31", null ]
       ] ],
-      [ "Help and Support", "index.html#autotoc_md31", null ],
-      [ "Supported LED Chipsets", "index.html#autotoc_md32", null ],
-      [ "APA102 and the 'High Definition' Mode in FastLED", "index.html#autotoc_md33", null ]
+      [ "Help and Support", "index.html#autotoc_md32", null ],
+      [ "Supported LED Chipsets", "index.html#autotoc_md33", null ],
+      [ "APA102 and the 'High Definition' Mode in FastLED", "index.html#autotoc_md34", null ]
     ] ],
-    [ "Getting Started", "index.html#autotoc_md34", [
-      [ "Porting FastLED to a new platform", "index.html#autotoc_md37", null ],
-      [ "What about that name?", "index.html#autotoc_md38", null ],
-      [ "For more information", "index.html#autotoc_md39", null ],
-      [ "Daniel Garcia, Founder of FastLED", "index.html#autotoc_md40", null ],
-      [ "About the Current Contributor", "index.html#autotoc_md41", null ],
-      [ "Contributing", "index.html#autotoc_md42", null ]
+    [ "Getting Started", "index.html#autotoc_md35", [
+      [ "Porting FastLED to a new platform", "index.html#autotoc_md38", null ],
+      [ "What about that name?", "index.html#autotoc_md39", null ],
+      [ "For more information", "index.html#autotoc_md40", null ],
+      [ "Daniel Garcia, Founder of FastLED", "index.html#autotoc_md41", null ],
+      [ "About the Current Contributor", "index.html#autotoc_md42", null ],
+      [ "Contributing", "index.html#autotoc_md43", null ]
     ] ]
 ];

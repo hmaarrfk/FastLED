@@ -61,6 +61,14 @@ var hierarchy =
         [ "APA102Controller< DATA_PIN, CLOCK_PIN, RGB, DATA_RATE_MHZ(6), kFiveBitGammaCorrectionMode_BitShift, uint32_t(0x00000000), uint32_t(0x00000000)>", "class_a_p_a102_controller.html", [
           [ "APA102ControllerHD< DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED >", "class_a_p_a102_controller_h_d.html", null ]
         ] ],
+        [ "APA102Controller< DATA_PIN, CLOCK_PIN, RGB, DATA_RATE_MHZ(40), kFiveBitGammaCorrectionMode_Null, 0x00000000, 0x00000000 >", "class_a_p_a102_controller.html", [
+          [ "HD107Controller< DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED >", "class_h_d107_controller.html", null ]
+        ] ],
+        [ "APA102Controller< DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED, kFiveBitGammaCorrectionMode_BitShift, uint32_t(0x00000000), uint32_t(0x00000000)>", "class_a_p_a102_controller.html", [
+          [ "APA102ControllerHD< DATA_PIN, CLOCK_PIN, RGB, DATA_RATE_MHZ(40) >", "class_a_p_a102_controller_h_d.html", [
+            [ "HD107HDController< DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED >", "class_h_d107_h_d_controller.html", null ]
+          ] ]
+        ] ],
         [ "APA102Controller< DATA_PIN, CLOCK_PIN, RGB, DATA_RATE_MHZ(12), kFiveBitGammaCorrectionMode_Null, 0x00000000, 0x00000000 >", "class_a_p_a102_controller.html", [
           [ "SK9822Controller< DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED >", "class_s_k9822_controller.html", null ]
         ] ],
@@ -142,6 +150,7 @@ var hierarchy =
         [ "WS2811< DATA_PIN, RGB_ORDER >", "class_w_s2811.html", null ]
       ] ],
       [ "WS2812Controller800Khz< DATA_PIN, RGB_ORDER >", "class_w_s2812_controller800_khz.html", [
+        [ "WS2812< DATA_PIN, RGB >", "class_w_s2812.html", null ],
         [ "GS1903< DATA_PIN, RGB_ORDER >", "class_g_s1903.html", null ],
         [ "WS2812< DATA_PIN, RGB_ORDER >", "class_w_s2812.html", null ],
         [ "WS2812B< DATA_PIN, RGB_ORDER >", "class_w_s2812_b.html", null ],
@@ -150,7 +159,6 @@ var hierarchy =
       [ "WS2812Controller800Khz< DATA_PIN, GRB >", "class_w_s2812_controller800_khz.html", [
         [ "NEOPIXEL< DATA_PIN >", "class_n_e_o_p_i_x_e_l.html", null ]
       ] ],
-      [ "WS2812Controller800Khz< DATA_PIN, RGB >", "class_w_s2812_controller800_khz.html", null ],
       [ "WS2813Controller< DATA_PIN, RGB_ORDER >", "class_w_s2813_controller.html", [
         [ "WS2813< DATA_PIN, RGB_ORDER >", "class_w_s2813.html", null ]
       ] ],
@@ -178,7 +186,9 @@ var hierarchy =
       [ "UCS2903Controller< DATA_PIN, RGB_ORDER >", "class_u_c_s2903_controller.html", null ],
       [ "WS2811Controller400Khz< DATA_PIN, RGB_ORDER >", "class_w_s2811_controller400_khz.html", null ],
       [ "WS2811Controller800Khz< DATA_PIN, RGB_ORDER >", "class_w_s2811_controller800_khz.html", null ],
-      [ "WS2812Controller800Khz< DATA_PIN, RGB_ORDER >", "class_w_s2812_controller800_khz.html", null ],
+      [ "WS2812Controller800Khz< DATA_PIN, RGB_ORDER >", "class_w_s2812_controller800_khz.html", [
+        [ "WS2816Controller< DATA_PIN, RGB_ORDER >::ControllerT", "class_w_s2816_controller_1_1_controller_t.html", null ]
+      ] ],
       [ "WS2813Controller< DATA_PIN, RGB_ORDER >", "class_w_s2813_controller.html", null ],
       [ "WS2815Controller< DATA_PIN, RGB_ORDER >", "class_w_s2815_controller.html", null ]
     ] ],
@@ -189,6 +199,9 @@ var hierarchy =
     [ "ColorHSV", "struct_color_h_s_v.html", null ],
     [ "ColorScheme", "struct_color_scheme.html", null ],
     [ "ColorSelector", "class_color_selector.html", null ],
+    [ "CONTROLLER", null, [
+      [ "RGBWEmulatedController< CONTROLLER, RGB_ORDER >::ControllerT", "class_r_g_b_w_emulated_controller_1_1_controller_t.html", null ]
+    ] ],
     [ "CountingButton", "class_counting_button.html", null ],
     [ "CPixelView< PIXEL_TYPE >", "class_c_pixel_view.html", null ],
     [ "CPixelView< CRGB >", "class_c_pixel_view.html", [

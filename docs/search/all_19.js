@@ -33,7 +33,7 @@ var searchData=
   ['release_30',['release',['../class_selectable.html#a190c264a07995c20d72ea5d52eb60e47',1,'Selectable::release()'],['../class_pin.html#a20dd599177993607a9839d80bb0927d7',1,'Pin::release()'],['../class_a_v_r_software_s_p_i_output.html#a677ab5b52bbd6011d48c3a14e3ebdcb2',1,'AVRSoftwareSPIOutput::release()'],['../class_n_o_p_s_p_i_output.html#a0599fbdf5e04a633d24ff17033443237',1,'NOPSPIOutput::release()'],['../class_r_e_f_hardware_s_p_i_output.html#a7c39a37f4a8d759bfb59623fa95b09ce',1,'REFHardwareSPIOutput::release()']]],
   ['removefx_31',['removeFx',['../classfl_1_1_fx_engine.html#acb1a08ee3735bf9269d8a60370b02315',1,'fl::FxEngine']]],
   ['render_5fparameters_32',['render_parameters',['../structanimartrix__detail_1_1render__parameters.html',1,'animartrix_detail']]],
-  ['repo_33',['Arduino IDE / PlatformIO Dual Repo',['../index.html#autotoc_md35',1,'']]],
+  ['repo_33',['Arduino IDE / PlatformIO Dual Repo',['../index.html#autotoc_md36',1,'']]],
   ['reserved_34',['reserved',['../structled__color__component__format__t_1_1format__layout.html#a03da1338f5244552e5952cae2cdfcb28',1,'led_color_component_format_t::format_layout']]],
   ['reset_35',['reset',['../structled__strip__encoder__timings__t.html#a876b4c74cfd15242267b7b4b4d84a360',1,'led_strip_encoder_timings_t::reset'],['../class_c_every_n_time.html#ae8ae82d26045e38ca51fbf424ad58d86',1,'CEveryNTime::reset()']]],
   ['resolution_36',['resolution',['../structled__strip__encoder__config__t.html#a9ab68c581424c5fbd050fa68d679f063',1,'led_strip_encoder_config_t']]],

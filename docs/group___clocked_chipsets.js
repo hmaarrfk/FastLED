@@ -20,6 +20,8 @@ var group___clocked_chipsets =
     [ "APA102ControllerHD< DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED >", "class_a_p_a102_controller_h_d.html", null ],
     [ "SK9822Controller< DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED >", "class_s_k9822_controller.html", null ],
     [ "SK9822ControllerHD< DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED >", "class_s_k9822_controller_h_d.html", null ],
+    [ "HD107Controller< DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED >", "class_h_d107_controller.html", null ],
+    [ "HD107HDController< DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED >", "class_h_d107_h_d_controller.html", null ],
     [ "P9813Controller< DATA_PIN, CLOCK_PIN, RGB_ORDER, SPI_SPEED >", "class_p9813_controller.html", [
       [ "init", "class_p9813_controller.html#ad6fcb36b9378df660721ae24ed857b8a", null ],
       [ "showPixels", "class_p9813_controller.html#ab7381f0a1850d006f3449d27838b19c5", null ]
