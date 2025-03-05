@@ -27,11 +27,11 @@ var NAVTREE =
   [ "FastLED", "index.html", [
     [ "FastLED Library", "index.html", "index" ],
     [ "Platform Porting Guide", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html", [
-      [ "Fast porting for a new board on existing hardware", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md44", [
-        [ "Setting up the basic files/folders", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md45", null ],
-        [ "Porting fastpin.h", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md46", null ],
-        [ "Porting fastspi.h", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md47", null ],
-        [ "Porting clockless.h", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md48", null ]
+      [ "Fast porting for a new board on existing hardware", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md46", [
+        [ "Setting up the basic files/folders", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md47", null ],
+        [ "Porting fastpin.h", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md48", null ],
+        [ "Porting fastspi.h", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md49", null ],
+        [ "Porting clockless.h", "md__2home_2runner_2work_2_fast_l_e_d_2_fast_l_e_d_2_p_o_r_t_i_n_g.html#autotoc_md50", null ]
       ] ]
     ] ],
     [ "Todo List", "todo.html", null ],
@@ -84,9 +84,9 @@ var NAVTREEINDEX =
 "functions_func_t.html",
 "group___noise.html",
 "index.html#autotoc_md17",
-"rgbw_8cpp.html",
-"struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99aeae6c44ad17989f6ee932c722865ab1a",
-"structsub4.html#adcc8a238228e93e405b1413fd6403e69"
+"ref_8cpp_source.html",
+"struct_c_r_g_b.html#aeb40a08b7cb90c1e21bd408261558b99ae677e01529e938cbde08c4f97a6226bc",
+"structsub4.html#adada5fd53b415622cb805db1d6878259"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
